@@ -1,0 +1,27 @@
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Core Variables */
+:root {
+  --primary-color: #F4F4F9;
+  --complementary-color: #333333;
+  --highlight-color: #49006F;
+  --text-color-main: #333333;
+  --text-color-secondary: #F4F4F9;
+  --background-color: #f7f7fa;
+  --border-color: #000000;
+  --hover-color: #dacce2;
+}
+
+/* Global Styles */
+html,
+body {
+  background: var(--primary-color);
+  color: var(--text-color-main);
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+}

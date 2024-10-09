@@ -1,0 +1,72 @@
+/* Estilo para dispositivos móveis */
+.services_section {
+    padding: 20px;
+    background-color: var(--background-color);
+}
+
+.title {
+    font-size: 1.8rem;
+    color: var(--highlight-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.services_list {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    padding-bottom: 10px;
+    scroll-snap-type: x mandatory;
+}
+
+.service_card {
+    flex: 0 0 80%;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: start;
+    transition: transform 0.3s ease;
+}
+
+.service_card:hover {
+    transform: scale(1.05);
+}
+
+.service_title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: var(--text-color-main);
+}
+
+.service_description {
+    font-size: 1rem;
+    color: var(--text-color-main);
+    line-height: 1.4;
+}
+
+/* Estilo para telas maiores */
+@media (min-width: 768px) {
+    .services_list {
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+
+    .service_card {
+        flex: 0 0 45%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .services_section {
+        padding: 40px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .service_card {
+        flex: 0 0 30%;
+    }
+}

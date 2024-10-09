@@ -1,0 +1,91 @@
+/* Estilos para dispositivos móveis */
+.consulting_section {
+    padding: 20px;
+    background-color: var(--background-color);
+    text-align: center;
+}
+
+.title {
+    font-size: 1.8rem;
+    color: var(--highlight-color);
+    margin-bottom: 20px;
+}
+
+.consulting_list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.consulting_card {
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.consulting_card:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: var(--highlight-color);
+}
+
+.service_title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--text-color-main);
+}
+
+.service_description {
+    font-size: 1rem;
+    color: var(--text-color-main);
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.cta_button {
+    background-color: var(--highlight-color);
+    color: var(--text-color-secondary);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta_button:hover {
+    background-color: var(--hover-color);
+}
+
+/* Estilos para telas maiores */
+@media (min-width: 768px) {
+    .consulting_list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .consulting_card {
+        flex: 0 0 48%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .consulting_section {
+        padding: 40px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .consulting_card {
+        flex: 0 0 30%;
+    }
+}

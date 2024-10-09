@@ -1,0 +1,57 @@
+/* Estilo para dispositivos móveis */
+.about_section {
+    background-color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 1.8rem;
+    color: var(--highlight-color);
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 1rem;
+    color: var(--text-color-main);
+    line-height: 1.6;
+}
+
+/* Estilo para telas maiores */
+@media (min-width: 768px) {
+    .about_section {
+        padding: 40px;
+        text-align: left;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about_section {
+        padding: 60px 0;
+    }
+
+    .content {
+        max-width: 800px;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .description {
+        font-size: 1.5rem;
+    }
+}

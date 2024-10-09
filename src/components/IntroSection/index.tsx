@@ -2,7 +2,7 @@ import styles from './styles.module.css';
 
 const IntroSection = () => {
     return (
-        <section className={styles.intro_section}>
+        <section id='intro' className={styles.intro_section}>
             <div className={styles.content}>
                 <h1 className={styles.title}>Bem-vindo à Minha Consultoria</h1>
                 <p className={styles.description}>

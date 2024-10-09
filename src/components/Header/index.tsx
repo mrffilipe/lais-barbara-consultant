@@ -32,10 +32,22 @@ const Header = () => {
                     <button className={styles.close_button} onClick={toggleMenu}>X</button>
                     <ul className={styles.menu_list}>
                         <li>
-                            <a href="#">Catálogo</a>
+                            <a href="#intro">Início</a>
                         </li>
                         <li>
-                            <a href="#">Login</a>
+                            <a href="#about">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="#services">Serviços</a>
+                        </li>
+                        <li>
+                            <a href="#consulting">Consultorias</a>
+                        </li>
+                        <li>
+                            <a href="#testimonial">Depoimentos</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contato</a>
                         </li>
                     </ul>
                 </nav>

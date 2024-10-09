@@ -2,7 +2,7 @@ import styles from './styles.module.css';
 
 const ContactSection = () => {
     return (
-        <section className={styles.contact_section}>
+        <section id='contact' className={styles.contact_section}>
             <h2 className={styles.title}>Entre em Contato</h2>
             <div className={styles.contact_info}>
                 <p>Email: <a href="mailto:contato@consultoria.com">contato@consultoria.com</a></p>

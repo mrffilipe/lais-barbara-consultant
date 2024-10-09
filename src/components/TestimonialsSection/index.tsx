@@ -23,7 +23,7 @@ const testimonials = [
 
 const TestimonialsSection = () => {
     return (
-        <section className={styles.testimonials_section}>
+        <section id='testimonial' className={styles.testimonials_section}>
             <h2 className={styles.title}>Depoimentos</h2>
             <div className={styles.testimonial_list}>
                 {testimonials.map((testimonial) => (

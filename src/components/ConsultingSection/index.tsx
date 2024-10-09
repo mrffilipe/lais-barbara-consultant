@@ -23,7 +23,7 @@ const consultingServices = [
 
 const ConsultingSection = () => {
     return (
-        <section className={styles.consulting_section}>
+        <section id='consulting' className={styles.consulting_section}>
             <h2 className={styles.title}>Consultorias</h2>
             <div className={styles.consulting_list}>
                 {consultingServices.map((service) => (

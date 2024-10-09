@@ -16,6 +16,21 @@ const services = [
         title: "Desenvolvimento de Negócios",
         description: "Identifico oportunidades de crescimento e crio estratégias para expandir seus negócios.",
     },
+    {
+        id: 4,
+        title: "Desenvolvimento de Negócios",
+        description: "Identifico oportunidades de crescimento e crio estratégias para expandir seus negócios.",
+    },
+    {
+        id: 5,
+        title: "Desenvolvimento de Negócios",
+        description: "Identifico oportunidades de crescimento e crio estratégias para expandir seus negócios.",
+    },
+    {
+        id: 6,
+        title: "Desenvolvimento de Negócios",
+        description: "Identifico oportunidades de crescimento e crio estratégias para expandir seus negócios.",
+    }
 ];
 
 const ServicesSection = () => {

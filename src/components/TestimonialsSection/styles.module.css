@@ -1,13 +1,12 @@
-/* Estilos para dispositivos móveis */
 .testimonials_section {
     padding: 20px;
     background-color: var(--background-color);
     text-align: center;
+    color: var(--text-color-main);
 }
 
 .title {
     font-size: 1.8rem;
-    color: var(--highlight-color);
     margin-bottom: 20px;
 }
 
@@ -32,12 +31,10 @@
 .comment {
     font-size: 1.2rem;
     margin-bottom: 15px;
-    color: var(--text-color-main);
 }
 
 .name {
     font-weight: bold;
-    color: var(--highlight-color);
 }
 
 .occupation {
@@ -45,7 +42,6 @@
     color: var(--complementary-color);
 }
 
-/* Estilos para telas maiores */
 @media (min-width: 768px) {
     .testimonial_list {
         flex-direction: row;

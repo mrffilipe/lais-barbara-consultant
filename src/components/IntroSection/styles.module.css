@@ -1,31 +1,60 @@
+/* Estilos Gerais para Mobile */
 .intro_section {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    padding: 20px;
-    min-height: 80vh;
-    background-color: var(--background-color);
+    justify-content: center;
+    position: relative;
     text-align: center;
+    min-height: 80vh;
+    overflow: hidden;
+}
+
+.image_wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/img/intro_bg.jpg'); /* Defina o caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Overlay */
+.image_wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Ajuste a opacidade conforme necessário */
+    z-index: 1;
 }
 
 .content {
-    max-width: 600px;
-    color: var(--text-color-main);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--text-color-secondary);
+    z-index: 2;
+    padding: 20px;
+    max-width: 90%;
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 15px;
 }
 
 .description {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 20px;
 }
 
 .cta_button {
     background-color: transparent;
-    width: 100%;
     padding: 10px 20px;
     border: 1px solid var(--highlight-color);
     border-radius: 5px;
@@ -34,7 +63,6 @@
     text-decoration: none;
     transition: all 0.3s ease;
     cursor: pointer;
-    white-space: nowrap;
 }
 
 .cta_button:hover {
@@ -42,10 +70,44 @@
     color: var(--text-color-secondary);
 }
 
+/* Ajustes para Telas Maiores */
 @media (min-width: 768px) {
     .intro_section {
-        padding: 0;
-        text-align: justify;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+        padding: 40px;
+    }
+
+    .image_wrapper {
+        width: 50%;
+        height: auto;
+    }
+
+    .content {
+        position: relative;
+        width: 50%;
+        padding: 20px;
+        transform: none;
+        max-width: 100%;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
+    }
+
+    .cta_button {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro_section {
+        padding: 60px;
     }
 
     .title {
@@ -53,20 +115,11 @@
     }
 
     .description {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .cta_button {
         font-size: 1.2rem;
-    }
-}
-
-@media (min-width: 1024px) {
-    .intro_section {
-        min-height: 60vh;
-    }
-
-    .cta_button {
-        width: auto;
+        padding: 15px 30px;
     }
 }

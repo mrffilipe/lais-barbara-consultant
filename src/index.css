@@ -29,7 +29,7 @@
   --border-color: #49006F;
   --hover-color: #C09296;
 
-  --horizontal-padding: 10px;
+  --horizontal-padding: 16px;
 }
 
 .container {
@@ -74,6 +74,6 @@ strong {
 
 @media (min-width: 1024px) {
   :root {
-    --horizontal-padding: 20px;
+    --horizontal-padding: 256px;
   }
 }

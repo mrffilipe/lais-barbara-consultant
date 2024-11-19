@@ -10,23 +10,31 @@
 /* Core Variables */
 /* :root {
   --primary-color: #F7E9DA; 
-  --complementary-color: #4A3D35; 
-  --highlight-color: #B6895A; 
+    olor: #4A3D35; 
+  --highlight-color: #B6895A;   
   --text-color-main: #4A3D35; 
-  --text-color-secondary: #F7E9DA;
+  --text-color-secondary: #F7E9DA;  
   --background-color: #D9C7B4; 
   --border-color: #4A3D35; 
   --hover-color: #C8A784; 
+  --horizontal-padding: 10px;
 } */
 :root {
-  --primary-color: #F4E3E1; 
+  --primary-color: #F4E3E1;
   --complementary-color: #2D2B30;
-  --highlight-color: #870D37; 
-  --text-color-main: #2D2B30; 
+  --highlight-color: #870D37;
+  --text-color-main: #2D2B30;
   --text-color-secondary: #F4E3E1;
-  --background-color: #E3CAC6; 
-  --border-color: #49006F; 
-  --hover-color: #C09296; 
+  --background-color: #E3CAC6;
+  --border-color: #49006F;
+  --hover-color: #C09296;
+
+  --horizontal-padding: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Global Styles */
@@ -37,22 +45,35 @@ body {
   font-size: 1rem;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
 
-h5, h6 {
+h5,
+h6 {
   font-family: 'Raleway', sans-serif;
-  font-weight: 400; 
+  font-weight: 400;
 }
 
-body, p, span, li {
+body,
+p,
+span,
+li {
   font-family: 'Poppins', sans-serif;
-  font-weight: 400; 
+  font-weight: 400;
 }
 
 strong {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --horizontal-padding: 20px;
+  }
 }

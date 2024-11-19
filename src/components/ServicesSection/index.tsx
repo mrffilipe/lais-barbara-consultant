@@ -1,50 +1,28 @@
 import styles from './styles.module.css';
 
-const services = [
-    {
-        id: 1,
-        title: "Consultoria Estratégica",
-        description: "Ajudo sua empresa a definir estratégias eficazes e alcançar os resultados desejados.",
-    },
-    {
-        id: 2,
-        title: "Planejamento Financeiro",
-        description: "Ofereço serviços de planejamento financeiro para otimizar suas finanças e melhorar a rentabilidade.",
-    },
-    {
-        id: 3,
-        title: "Desenvolvimento de Negócios",
-        description: "Identifico oportunidades de crescimento e crio estratégias para expandir seus negócios.",
-    },
-    {
-        id: 4,
-        title: "Desenvolvimento de Negócios",
-        description: "Identifico oportunidades de crescimento e crio estratégias para expandir seus negócios.",
-    },
-    {
-        id: 5,
-        title: "Desenvolvimento de Negócios",
-        description: "Identifico oportunidades de crescimento e crio estratégias para expandir seus negócios.",
-    },
-    {
-        id: 6,
-        title: "Desenvolvimento de Negócios",
-        description: "Identifico oportunidades de crescimento e crio estratégias para expandir seus negócios.",
-    }
-];
-
 const ServicesSection = () => {
     return (
         <section id='services' className={styles.services_section}>
-            <h2 className={styles.title}>Serviços</h2>
-            <div className={styles.services_list}>
-                {services.map((service) => (
-                    <div key={service.id} className={styles.service_card}>
-                        <h3 className={styles.service_title}>{service.title}</h3>
-                        <p className={styles.service_description}>{service.description}</p>
-                    </div>
-                ))}
-            </div>
+            <ul className={styles.services_list}>
+                <li>
+                    <h3>Consultoria de Negócios</h3>
+                    <p>
+                        Consultoria para otimizar resultados, melhorar processos e aumentar a lucratividade com soluções eficazes.
+                    </p>
+                </li>
+                <li>
+                    <h3>Consultoria Financeira</h3>
+                    <p>
+                        Consultoria em finanças e marketing para otimizar resultados, fortalecer sua marca e garantir crescimento sustentável.
+                    </p>
+                </li>
+                <li>
+                    <h3>Palestras</h3>
+                    <p>
+                        Palestras e consultorias focadas no bem-estar, produtividade e sucesso profissional, com abordagem prática e baseada em ciência.
+                    </p>
+                </li>
+            </ul>
         </section>
     );
 };

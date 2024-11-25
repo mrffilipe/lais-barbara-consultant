@@ -2,21 +2,40 @@
     padding: 64px var(--horizontal-padding);
 }
 
+.services_section h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .services_list {
+    margin-top: 64px;
     display: flex;
     flex-direction: column;
     gap: 32px;
     list-style: none;
 }
 
+.services_list h3 {
+    text-align: center;
+}
+
 .services_list p {
     margin-top: 8px;
-    text-align: justify;
+    text-align: center;
 }
 
 @media (min-width: 1024px) {
     .services_list {
         flex-direction: row;
+        justify-content: space-between;
         gap: 64px;
+    }
+
+    .services_list h3 {
+        text-align: start;
+    }
+    
+    .services_list p {
+        text-align: start;
     }
 }

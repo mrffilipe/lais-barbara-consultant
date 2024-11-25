@@ -40,7 +40,6 @@
 /* Global Styles */
 html,
 body {
-  background: var(--primary-color);
   color: var(--text-color-main);
   font-size: 1rem;
 }

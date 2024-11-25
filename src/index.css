@@ -8,18 +8,19 @@
 }
 
 /* Core Variables */
-/* :root {
+:root {
   --primary-color: #F7E9DA; 
-    olor: #4A3D35; 
+  --complementary-color: #4A3D35; 
   --highlight-color: #B6895A;   
   --text-color-main: #4A3D35; 
   --text-color-secondary: #F7E9DA;  
   --background-color: #D9C7B4; 
   --border-color: #4A3D35; 
   --hover-color: #C8A784; 
-  --horizontal-padding: 10px;
-} */
-:root {
+
+  --horizontal-padding: 16px;
+}
+/* :root {
   --primary-color: #F4E3E1;
   --complementary-color: #2D2B30;
   --highlight-color: #870D37;
@@ -30,7 +31,7 @@
   --hover-color: #C09296;
 
   --horizontal-padding: 16px;
-}
+} */
 
 .container {
   max-width: 1200px;

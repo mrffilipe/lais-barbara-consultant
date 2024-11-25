@@ -1,8 +1,13 @@
 .services_section {
+    background-color: var(--background-color);
     padding: 64px var(--horizontal-padding);
 }
 
 .services_section h1 {
+    margin: 0 auto;
+    width: fit-content;
+    padding-bottom: 4px;
+    border-bottom: 4px solid var(--text-color-main);
     text-align: center;
     text-transform: uppercase;
 }
@@ -36,6 +41,6 @@
     }
     
     .services_list p {
-        text-align: start;
+        text-align: justify;
     }
 }

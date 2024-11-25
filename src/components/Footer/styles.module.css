@@ -1,9 +1,9 @@
 .footer {
-    background-color: var(--complementary-color);
+    background-color: var(--background-color);
     padding: 24px 0;
 }
 
 .footer p {
     text-align: center;
-    color: var(--text-color-secondary);
+    color: var(--text-color-main);
 }

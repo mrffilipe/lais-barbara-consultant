@@ -9,29 +9,14 @@
 
 /* Core Variables */
 :root {
-  --primary-color: #F7E9DA; 
-  --complementary-color: #4A3D35; 
-  --highlight-color: #B6895A;   
-  --text-color-main: #4A3D35; 
-  --text-color-secondary: #F7E9DA;  
-  --background-color: #D9C7B4; 
-  --border-color: #4A3D35; 
-  --hover-color: #C8A784; 
+  --primary-color: #FEFEFE;
+  --complementary-color: #221203;
+  --text-color-main: #221203;
+  --text-color-secondary: #FEFEFE;
+  --background-color: #FADC9B;
 
   --horizontal-padding: 16px;
 }
-/* :root {
-  --primary-color: #F4E3E1;
-  --complementary-color: #2D2B30;
-  --highlight-color: #870D37;
-  --text-color-main: #2D2B30;
-  --text-color-secondary: #F4E3E1;
-  --background-color: #E3CAC6;
-  --border-color: #49006F;
-  --hover-color: #C09296;
-
-  --horizontal-padding: 16px;
-} */
 
 .container {
   max-width: 1200px;
@@ -41,6 +26,7 @@
 /* Global Styles */
 html,
 body {
+  background-color: var(--primary-color);
   color: var(--text-color-main);
   font-size: 1rem;
 }

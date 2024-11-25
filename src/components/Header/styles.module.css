@@ -2,7 +2,7 @@
     position: relative;
     background-color: var(--primary-color);
     color: var(--text-color-main);
-    padding: 10px;
+    padding: 4px var(--horizontal-padding);
 }
 
 .container {
@@ -13,8 +13,14 @@
     margin: 0 auto;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo img {
-    height: 40px;
+    height: 48px;
     pointer-events: none;
 }
 
@@ -32,7 +38,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     display: none;
     z-index: 999;
 }
@@ -47,7 +53,7 @@
     right: -80%;
     width: 80%;
     height: 100%;
-    background-color: var(--complementary-color);
+    background-color: var(--background-color);
     transition: right 0.3s ease;
     z-index: 1000;
     overflow: hidden;
@@ -65,7 +71,7 @@
     background: none;
     border: none;
     font-size: 36px;
-    color: var(--text-color-secondary);
+    color: var(--text-color-main);
     position: absolute;
     top: 20px;
     left: 20px;
@@ -79,24 +85,20 @@
 
 .menu_list {
     list-style: none;
-    padding: 0;
-}
-
-.menu_list li {
-    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .menu_list a {
     text-decoration: none;
-    color: var(--text-color-secondary);
-    font-size: 24px;
+    color: var(--text-color-main);
+    font-size: 1.1rem;
     transition: all 0.3s ease;
 }
 
 .menu_list a:hover {
-    color: #fff;
     text-decoration: underline;
-    transform: scale(1.05);
 }
 
 @media (min-width: 768px) {
@@ -104,6 +106,7 @@
         position: sticky;
         top: 0;
         z-index: 999;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
     }
 
     .menu_button {
@@ -134,34 +137,17 @@
     }
 
     .menu_list {
-        display: flex;
         flex-direction: row;
-    }
-
-    .menu_list li {
-        margin: 0 20px;
+        gap: 24px;
     }
 
     .menu_list a {
-        font-size: 16px;
-        color: var(--text-color-main);
-    }
-
-    .menu_list a:hover {
-        color: var(--highlight-color);
+        font-size: 1rem;
     }
 }
 
 @media (min-width: 1024px) {
-    .header {
-        padding: 20px;
-    }
-
     .logo img {
-        height: 50px;
-    }
-
-    .menu_list a {
-        font-size: 18px;
+        height: 72px;
     }
 }

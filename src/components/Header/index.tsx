@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 
 import { useState } from "react";
 
-// import LogoSvg from "../../assets/svg/logo.svg";
+import LogoImg from "../../assets/img/logo.png";
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,8 +21,7 @@ const Header = () => {
         <header className={styles.header}>
             <div className={styles.container}>
                 <div className={styles.logo}>
-                    {/* <img src={LogoSvg} alt="Logo" /> */}
-                    <h1>Laís Bárbara</h1>
+                    <img src={LogoImg} alt="Logo" />
                 </div>
                 <button className={styles.menu_button} onClick={toggleMenu}>
                     ☰

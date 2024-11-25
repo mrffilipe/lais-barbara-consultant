@@ -10,7 +10,7 @@ const App = () => {
             <IntroSection />
             <AboutSection />
             <ServicesSection />
-            {/* <ContactSection /> */}
+            <ContactSection />
         </Layout>
     );
 };

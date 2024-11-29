@@ -17,7 +17,7 @@
     display: none;
     pointer-events: none;
     border-radius: 8px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 8px 8px 0 var(--background-color);
 }
 
 @media (min-width: 768px) {

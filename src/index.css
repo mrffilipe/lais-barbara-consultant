@@ -9,11 +9,11 @@
 
 /* Core Variables */
 :root {
-  --primary-color: #FEFEFE;
-  --complementary-color: #221203;
-  --text-color-main: #221203;
-  --text-color-secondary: #FEFEFE;
-  --background-color: #FADC9B;
+  --primary-color: #FDFDFB;
+  --complementary-color: #1C1C1A;
+  --text-color-main: #1C1C1A;
+  --text-color-secondary: #FDFDFB;
+  --background-color: #664300;
 
   --horizontal-padding: 16px;
 }

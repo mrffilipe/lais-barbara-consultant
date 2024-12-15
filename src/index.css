@@ -1,65 +1,65 @@
-@import url('fonts.css');
+@import url("fonts.css");
 
 /* Global Reset */
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 /* Core Variables */
 :root {
-  --primary-color: #FDFDFB;
-  --complementary-color: #1C1C1A;
-  --text-color-main: #1C1C1A;
-  --text-color-secondary: #FDFDFB;
-  --background-color: #664300;
+	--primary-color: #fdfdfb;
+	--complementary-color: #1c1c1a;
+	--text-color-main: #1c1c1a;
+	--text-color-secondary: #fdfdfb;
+	--background-color: #664300;
 
-  --horizontal-padding: 16px;
+	--horizontal-padding: 16px;
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 /* Global Styles */
 html,
 body {
-  background-color: var(--primary-color);
-  color: var(--text-color-main);
-  font-size: 1rem;
+	background-color: var(--primary-color);
+	color: var(--text-color-main);
+	font-size: 1rem;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
 }
 
 h5,
 h6 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
 }
 
 body,
 p,
 span,
 li {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
 }
 
 strong {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
 }
 
 @media (min-width: 1024px) {
-  :root {
-    --horizontal-padding: 256px;
-  }
+	:root {
+		--horizontal-padding: 256px;
+	}
 }

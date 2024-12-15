@@ -1,40 +1,40 @@
 .about_section {
-    padding: 64px var(--horizontal-padding);
+	padding: 64px var(--horizontal-padding);
 }
 
 .content h1 {
-    padding-left: 4px;
-    border-left: 4px solid var(--text-color-main);
-    text-transform: uppercase;
+	padding-left: 4px;
+	border-left: 4px solid var(--text-color-main);
+	text-transform: uppercase;
 }
 
 .content p {
-    margin-top: 32px;
-    text-align: justify;
+	margin-top: 32px;
+	text-align: justify;
 }
 
 .profile {
-    display: none;
-    pointer-events: none;
-    border-radius: 8px;
-    box-shadow: 8px 8px 0 var(--background-color);
+	display: none;
+	pointer-events: none;
+	border-radius: 8px;
+	box-shadow: 8px 8px 0 var(--background-color);
 }
 
 @media (min-width: 768px) {
-    .about_section {
-        display: flex;
-        justify-content: space-between;
-        gap: 32px;
-    }
+	.about_section {
+		display: flex;
+		justify-content: space-between;
+		gap: 32px;
+	}
 
-    .profile {
-        display: inline-block;
-        height: 200px;
-    }
+	.profile {
+		display: inline-block;
+		height: 200px;
+	}
 }
 
 @media (min-width: 1024px) {
-    .profile {
-        height: 300px;
-    }
+	.profile {
+		height: 300px;
+	}
 }

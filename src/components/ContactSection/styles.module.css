@@ -1,117 +1,117 @@
 .contact_section {
-    padding: 64px var(--horizontal-padding);
+	padding: 64px var(--horizontal-padding);
 }
 
 .contact_section h3 {
-    border-left: 4px solid var(--text-color-main);
-    padding-left: 8px;
-    text-transform: uppercase;
+	border-left: 4px solid var(--text-color-main);
+	padding-left: 8px;
+	text-transform: uppercase;
 }
 
 .contact_info {
-    margin-top: 32px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+	margin-top: 32px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
 }
 
 .contact_info p {
-    font-size: 0.9rem;
+	font-size: 0.9rem;
 }
 
 .contact_info a {
-    display: block;
-    color: var(--text-color-main);
-    font-size: 1rem;
-    text-decoration: none;
-    transition: all 0.3s ease;
+	display: block;
+	color: var(--text-color-main);
+	font-size: 1rem;
+	text-decoration: none;
+	transition: all 0.3s ease;
 }
 
 .contact_info a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .contact_form {
-    margin-top: 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+	margin-top: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
 }
 
 .contact_form label {
-    font-size: 0.9rem;
+	font-size: 0.9rem;
 }
 
 .contact_form input,
 .contact_form textarea {
-    display: block;
-    width: 100%;
-    border: none;
-    border: 1px solid var(--background-color);
-    outline: none;
-    background: none;
-    padding: 8px;
-    border-radius: 4px;
-    font-size: 1rem;
+	display: block;
+	width: 100%;
+	border: none;
+	border: 1px solid var(--background-color);
+	outline: none;
+	background: none;
+	padding: 8px;
+	border-radius: 4px;
+	font-size: 1rem;
 }
 
 .contact_form button {
-    margin-top: 8px;
-    width: 100%;
-    border: none;
-    background-color: var(--background-color);
-    padding: 12px 36px;
-    border-radius: 8px;
-    color: var(--text-color-secondary);
-    font-size: 1rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
+	margin-top: 8px;
+	width: 100%;
+	border: none;
+	background-color: var(--background-color);
+	padding: 12px 36px;
+	border-radius: 8px;
+	color: var(--text-color-secondary);
+	font-size: 1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
 }
 
 .contact_form button:hover {
-    transform: translateY(-4px);
+	transform: translateY(-4px);
 }
 
 @media (min-width: 768px) {
-    .container {
-        margin: 0 auto;
-        background-color: var(--background-color);
-        max-width: 400px;
-        padding: 48px 32px;
-        border-radius: 8px;
-    }
+	.container {
+		margin: 0 auto;
+		background-color: var(--background-color);
+		max-width: 400px;
+		padding: 48px 32px;
+		border-radius: 8px;
+	}
 
-    .contact_section h3 {
-        border: none;
-        padding: 0;
-        text-align: center;
-        color: var(--text-color-secondary);
-    }
+	.contact_section h3 {
+		border: none;
+		padding: 0;
+		text-align: center;
+		color: var(--text-color-secondary);
+	}
 
-    .contact_info,
-    .contact_info a,
-    .contact_form {
-        color: var(--text-color-secondary);
-    }
+	.contact_info,
+	.contact_info a,
+	.contact_form {
+		color: var(--text-color-secondary);
+	}
 
-    .contact_info a {
-        font-size: 0.9rem;
-    }
+	.contact_info a {
+		font-size: 0.9rem;
+	}
 
-    .contact_form input,
-    .contact_form textarea {
-        border: 1px solid var(--text-color-secondary);
-    }
+	.contact_form input,
+	.contact_form textarea {
+		border: 1px solid var(--text-color-secondary);
+	}
 
-    .contact_form input::placeholder,
-    .contact_form textarea::placeholder {
-        color: var(--text-color-secondary);
-    }
+	.contact_form input::placeholder,
+	.contact_form textarea::placeholder {
+		color: var(--text-color-secondary);
+	}
 
-    .contact_form button {
-        border: 1px solid var(--text-color-secondary);
-    }
+	.contact_form button {
+		border: 1px solid var(--text-color-secondary);
+	}
 }

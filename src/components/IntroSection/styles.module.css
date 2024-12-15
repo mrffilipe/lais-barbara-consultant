@@ -1,59 +1,59 @@
 .intro_section {
-    background-image: url('../../assets//img/intro_bg.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
+	background-image: url("../../assets//img/intro_bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.7);
 }
 
 .content {
-    padding: 156px var(--horizontal-padding);
-    color: var(--text-color-secondary);
-    opacity: 0;
-    transform: translateY(50px);
-    animation: slideUp 1.2s ease-out forwards;
+	padding: 156px var(--horizontal-padding);
+	color: var(--text-color-secondary);
+	opacity: 0;
+	transform: translateY(50px);
+	animation: slideUp 1.2s ease-out forwards;
 }
 
 @keyframes slideUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
 .title {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .description {
-    margin-top: 16px;
-    max-width: 512px;
-    text-align: justify;
+	margin-top: 16px;
+	max-width: 512px;
+	text-align: justify;
 }
 
 .cta_button {
-    margin-top: 32px;
-    display: inline-block;
-    background: none;
-    border: 2px solid var(--text-color-secondary);
-    outline: none;
-    padding: 12px 36px;
-    border-radius: 8px;
-    color: var(--text-color-secondary);
-    font-size: 1rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
+	margin-top: 32px;
+	display: inline-block;
+	background: none;
+	border: 2px solid var(--text-color-secondary);
+	outline: none;
+	padding: 12px 36px;
+	border-radius: 8px;
+	color: var(--text-color-secondary);
+	font-size: 1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
 }
 
 .cta_button:hover {
-    background: var(--text-color-secondary);
-    color: var(--text-color-main);
+	background: var(--text-color-secondary);
+	color: var(--text-color-main);
 }

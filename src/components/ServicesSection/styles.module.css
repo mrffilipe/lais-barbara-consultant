@@ -1,47 +1,47 @@
 .services_section {
-    background-color: var(--background-color);
-    padding: 64px var(--horizontal-padding);
-    color: var(--text-color-secondary);
+	background-color: var(--background-color);
+	padding: 64px var(--horizontal-padding);
+	color: var(--text-color-secondary);
 }
 
 .services_section h1 {
-    margin: 0 auto;
-    width: fit-content;
-    padding-bottom: 4px;
-    border-bottom: 4px solid var(--text-color-secondary);
-    text-align: center;
-    text-transform: uppercase;
+	margin: 0 auto;
+	width: fit-content;
+	padding-bottom: 4px;
+	border-bottom: 4px solid var(--text-color-secondary);
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .services_list {
-    margin-top: 64px;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    list-style: none;
+	margin-top: 64px;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	list-style: none;
 }
 
 .services_list h3 {
-    text-align: center;
+	text-align: center;
 }
 
 .services_list p {
-    margin-top: 8px;
-    text-align: center;
+	margin-top: 8px;
+	text-align: center;
 }
 
 @media (min-width: 1024px) {
-    .services_list {
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 64px;
-    }
+	.services_list {
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 64px;
+	}
 
-    .services_list h3 {
-        text-align: start;
-    }
-    
-    .services_list p {
-        text-align: justify;
-    }
+	.services_list h3 {
+		text-align: start;
+	}
+
+	.services_list p {
+		text-align: justify;
+	}
 }

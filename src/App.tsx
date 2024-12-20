@@ -1,17 +1,20 @@
 import AboutSection from "./components/AboutSection";
 import ContactSection from "./components/ContactSection";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 import IntroSection from "./components/IntroSection";
-import Layout from "./components/Layout";
 import ServicesSection from "./components/ServicesSection";
 
 const App = () => {
 	return (
-		<Layout>
+		<>
+			<Header />
 			<IntroSection />
 			<AboutSection />
 			<ServicesSection />
 			<ContactSection />
-		</Layout>
+			<Footer />
+		</>
 	);
 };
 

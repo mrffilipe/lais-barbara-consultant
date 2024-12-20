@@ -2,9 +2,9 @@ import styles from "./styles.module.css";
 
 import IntroBackground from "../../assets/img/intro_bg.jpg";
 
-const IntroSection = () => {
+const Home = () => {
 	return (
-		<section id="intro" className={styles.intro_section}>
+		<section id="intro" className={styles.home}>
 			<div className={styles.container}>
 				<div className={styles.overlay}>
 					<div className={styles.content}>
@@ -27,4 +27,4 @@ const IntroSection = () => {
 	);
 };
 
-export default IntroSection;
+export default Home;

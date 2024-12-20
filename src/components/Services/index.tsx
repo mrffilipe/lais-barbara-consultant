@@ -1,8 +1,8 @@
 import styles from "./styles.module.css";
 
-const ServicesSection = () => {
+const Services = () => {
 	return (
-		<section id="services" className={styles.services_section}>
+		<section id="services" className={styles.services}>
 			<div className={styles.container}>
 				<div className={styles.content}>
 					<h1>Serviços</h1>
@@ -37,4 +37,4 @@ const ServicesSection = () => {
 	);
 };
 
-export default ServicesSection;
+export default Services;

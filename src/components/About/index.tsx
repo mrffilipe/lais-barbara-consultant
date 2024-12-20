@@ -2,9 +2,9 @@ import styles from "./styles.module.css";
 
 import Profile from "../../assets/img/profile.jpeg";
 
-const AboutSection = () => {
+const About = () => {
 	return (
-		<section id="about" className={styles.about_section}>
+		<section id="about" className={styles.about}>
 			<div className={styles.container}>
 				<div className={styles.profile}>
 					<img src={Profile} alt="Foto de Laís" draggable={false} />
@@ -27,4 +27,4 @@ const AboutSection = () => {
 	);
 };
 
-export default AboutSection;
+export default About;

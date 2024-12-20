@@ -73,7 +73,7 @@
 }
 
 @media (min-width: 960px) {
-	.intro_section {
+	.home {
 		padding: 16px var(--horizontal-padding);
 	}
 

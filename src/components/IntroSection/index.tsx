@@ -14,7 +14,7 @@ const IntroSection = () => {
 							e seminários, com ferramentas essenciais para o desenvolvimento
 							pessoal e profissional.
 						</p>
-						<a href="#intro" className={styles.cta_button}>
+						<a href="#contact" className={styles.cta_button}>
 							Saiba Mais
 						</a>
 					</div>

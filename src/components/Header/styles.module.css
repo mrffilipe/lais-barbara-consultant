@@ -1,35 +1,27 @@
 .header {
 	position: relative;
-	background-color: var(--primary-color);
-	color: var(--text-color-main);
-	padding: 4px var(--horizontal-padding);
+	background: var(--primary-color);
+	padding: 8px var(--horizontal-padding);
 }
 
 .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	max-width: 1200px;
 	margin: 0 auto;
-}
-
-.logo {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.logo img {
-	height: 48px;
-	pointer-events: none;
+	max-width: 1200px;
 }
 
 .menu_button {
 	background: none;
 	border: none;
-	font-size: 32px;
+	padding: 4px;
 	color: var(--text-color-main);
 	cursor: pointer;
+}
+
+.menu_button svg {
+	font-size: 2rem;
 }
 
 .overlay {
@@ -53,7 +45,7 @@
 	right: -80%;
 	width: 80%;
 	height: 100%;
-	background-color: var(--background-color);
+	background-color: var(--complementary-color);
 	transition: right 0.3s ease;
 	z-index: 1000;
 	overflow: hidden;
@@ -70,13 +62,17 @@
 .close_button {
 	background: none;
 	border: none;
-	font-size: 36px;
+	padding: 4px;
 	color: var(--text-color-secondary);
 	position: absolute;
 	top: 20px;
 	left: 20px;
 	cursor: pointer;
 	display: none;
+}
+
+.close_button svg {
+	font-size: 2rem;
 }
 
 .nav.open .close_button {
@@ -93,21 +89,32 @@
 .menu_list a {
 	text-decoration: none;
 	color: var(--text-color-secondary);
-	font-size: 1.1rem;
-	text-transform: uppercase;
 	transition: all 0.3s ease;
 }
 
 .menu_list a:hover {
-	text-decoration: underline;
+	color: var(--background-color);
+}
+
+.social_media {
+	margin-top: 16px;
+	justify-content: flex-start;
+}
+
+.social_media a {
+	padding: 0;
+}
+
+.social_media a svg {
+	font-size: 1.5rem;
 }
 
 @media (min-width: 768px) {
 	.header {
 		position: sticky;
 		top: 0;
+		padding: 4px var(--horizontal-padding);
 		z-index: 999;
-		box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 	}
 
 	.menu_button {
@@ -139,17 +146,22 @@
 
 	.menu_list {
 		flex-direction: row;
+		align-items: center;
 		gap: 24px;
 	}
 
 	.menu_list a {
 		color: var(--text-color-main);
-		font-size: 1rem;
+	}
+
+	.social_media {
+		margin: 0;
+		margin-left: 32px;
 	}
 }
 
 @media (min-width: 1024px) {
-	.logo img {
-		height: 72px;
+	.social_media a {
+		padding: 4px;
 	}
 }

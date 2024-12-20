@@ -1,5 +1,5 @@
 import AboutSection from "./components/AboutSection";
-import ContactSection from "./components/ContactSection";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import IntroSection from "./components/IntroSection";
@@ -12,7 +12,7 @@ const App = () => {
 			<IntroSection />
 			<AboutSection />
 			<ServicesSection />
-			<ContactSection />
+			<Contact />
 			<Footer />
 		</>
 	);

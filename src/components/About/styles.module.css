@@ -35,7 +35,7 @@
 
 .content p {
 	margin-top: 16px;
-	max-width: 512px;
+	max-width: 600px;
 	font-size: 1.1rem;
 }
 
@@ -51,8 +51,8 @@
 	}
 
 	.profile img {
-		width: 220px;
-		height: 220px;
+		width: 320px;
+		height: 320px;
 	}
 
 	.content {

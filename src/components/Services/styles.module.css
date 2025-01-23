@@ -30,6 +30,20 @@
 
 .services_list h3 {
 	font-size: 1.3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+}
+
+.services_list h3 span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.services_list h3 svg {
+	font-size: 2.5rem;
 }
 
 .services_list p {
@@ -40,10 +54,11 @@
 	.services_list {
 		flex-direction: row;
 		justify-content: space-between;
+		flex-wrap: wrap;
 		gap: 64px;
 	}
 
 	.services_list li {
-		width: 33.33%;
+		width: calc(50% - 32px);
 	}
 }

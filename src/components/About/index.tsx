@@ -12,15 +12,25 @@ const About = () => {
 				<div className={styles.content}>
 					<h1>Sobre Mim</h1>
 					<p>
-						Filha de uma professora e de um operário, sempre busquei crescimento
-						pessoal e profissional. Sou casada e tenho como propósito
-						compartilhar conhecimento, ajudando pessoas a se desenvolverem. Com
-						experiência em saúde ocupacional, ergonomia e bem-estar, ofereço
-						palestras personalizadas focadas no desenvolvimento pessoal e
-						profissional. Ensino técnicas para gerenciar o estresse e
-						transformar desafios em oportunidades, promovendo clareza e
-						automotivação.
+						Sou uma profissional apaixonada por compartilhar conhecimento e
+						transformar vidas. Goiana, com 30 anos de idade, venho de uma
+						família humilde e trabalhadora – filha de uma professora e de um
+						operário – o que me ensinou desde cedo a importância do aprendizado
+						e da dedicação.
 					</p>
+					<p>
+						Minha trajetória é marcada pelo foco no crescimento pessoal e
+						profissional, sempre buscando formas de ajudar empresas, escolas e
+						indivíduos a superarem desafios e alcançarem seus objetivos.
+					</p>
+					<p>
+						Meu trabalho vai além do conteúdo técnico. Busco inspirar, engajar e
+						transformar, criando soluções que realmente fazem a diferença na
+						vida das pessoas. Seja no ambiente corporativo, escolar ou
+						comunitário, meu propósito é ajudar cada cliente a alcançar um
+						equilíbrio saudável entre produtividade e bem-estar.
+					</p>
+					<p>Vamos transformar juntos?</p>
 				</div>
 			</div>
 		</section>

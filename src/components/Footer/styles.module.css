@@ -24,7 +24,8 @@
 }
 
 .navigation span,
-.my_networks span {
+.my_networks span,
+.enterprise span {
 	display: block;
 	font-size: 1.2rem;
 	font-weight: 500;
@@ -39,6 +40,12 @@
 
 .navigation a:hover {
 	text-decoration: underline;
+}
+
+.enterprise {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
 }
 
 .social_media a {

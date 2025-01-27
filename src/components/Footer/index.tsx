@@ -21,6 +21,20 @@ const Footer = () => {
 							Contato
 						</a>
 					</nav>
+					<div className={styles.enterprise}>
+						<span>Empresa</span>
+						<div>
+							<strong>CNPJ</strong>
+							<p>57.141.083/0001-56</p>
+						</div>
+						<div>
+							<strong>Endereço:</strong>
+							<p>Rua Jose Alexandre de Rezende, n06</p>
+							<p>Bairro Santa Cecília</p>
+							<p>Pires do Rio, GO - Brazil</p>
+							<p>75.200-000</p>
+						</div>
+					</div>
 					<div className={styles.my_networks}>
 						<span>Minhas redes</span>
 						<SocialMedia className={styles.social_media} />
